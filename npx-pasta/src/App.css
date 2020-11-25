@@ -1,0 +1,49 @@
+.App {
+  text-align: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.HeroBanner-div {
+  margin-left: 80px;
+  margin-right: 80px;
+  width: auto;
+  height: 500px;
+  background-color: #2f363d;
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 80px;
+
+}
+
+.menu,
+.react-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.card {
+  height: 400px;
+  width: 200;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  border: none;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+}
+
+.footer-div {
+  margin-left: 80px;
+  margin-right: 80px;
+}
